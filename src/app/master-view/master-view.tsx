@@ -1,4 +1,4 @@
-import { IgrAvatar } from '@infragistics/igniteui-react';
+import { IgrAvatar } from 'igniteui-react';
 import styles from './master-view.module.css';
 import createClassTransformer from '../style-utils';
 import '/src/app/base-view-styles.css';
