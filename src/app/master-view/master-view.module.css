@@ -1,0 +1,24 @@
+.row-layout {
+  display: flex;
+}
+.master-view-container {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  height: 100%;
+}
+.avatar {
+  --ig-size: var(--ig-size-large);
+}
+.avatar_1 {
+  --ig-size: var(--ig-size-medium);
+}
+.avatar::part(base) {
+  background-color: transparent;
+}
+.avatar_1::part(base) {
+  background-color: transparent;
+}
+.avatar_2::part(base) {
+  background-color: transparent;
+}
